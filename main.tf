@@ -1,4 +1,4 @@
-# Configuração padrão do Cognito
+# Configuração inicial do Cognito
 
 resource "aws_cognito_user_pool" "user_pool" {
   name                         = "ca_user_pool_prod"
